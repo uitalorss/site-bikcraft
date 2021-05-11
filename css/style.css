@@ -73,7 +73,49 @@ img{
     color: #fff;
 }
 
-/*header*/
+/*Introdução padrão das páginas*/
+.intro{
+    width: 100%;
+    height: 380px;
+    margin-top: 91.5px;
+    background: url("../img/bg.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 80px;
+}
+
+.intro h1{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.intro-interna{
+    width: 100%;
+    margin-top: 91.5px;
+    height: 160px;
+    text-align: center;
+    color: #fff;
+    padding-top: 40px;
+}
+
+.intro-interna h1{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.intro-interna h1::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 10px auto 10px auto;
+}
+
+ /*header*/
 .header{
     width: 100%;
     background-color: #FEC63E;
@@ -108,22 +150,7 @@ img{
     text-decoration-line: underline;
 }
 
-.intro{
-    width: 100%;
-    height: 380px;
-    margin-top: 91.5px;
-    background: url("../img/bg.jpg") no-repeat center;
-    background-size: cover;
-    text-align: center;
-    padding: 80px;
-}
-
-.intro h1{
-    color: #ffffff;
-    font-size: 36px;
-    font-weight: bold;
-}
-
+/*citações*/
 .quote-externo{
     max-width: 260px;
     margin: 0 auto;
