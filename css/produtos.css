@@ -129,6 +129,12 @@
     font-weight: bold;
 }
 
+.dados-orcamento p{
+    padding-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
 .par{
     background: #000;
     color: #707070;
