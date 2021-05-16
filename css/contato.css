@@ -1,0 +1,91 @@
+.intro-contato{
+    background: url("../img/bg-contato.jpg")no-repeat center;
+    background-size: cover;
+}
+.form-contato label{
+    color: #000;
+    display: block;
+    padding: 8px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-contato input{
+    padding: 8px;
+    width: 400px;
+    background-color: #A9AEB3;
+    border: 1px solid #A9AEB3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-contato textarea{
+    background-color: #A9AEB3;
+    border: 1px solid #A9AEB3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.btn-produto{
+    margin-top: 20px;
+    display: block;
+    border: 4px solid #FEC63E;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    text-decoration: none;
+    background: #fff;
+    color:#FEC63E;
+    font-weight: bold;
+}
+
+.btn-produto:hover{
+    border: 4px solid #000;
+    color:#000;
+}
+
+.dados-contato{
+    padding-left: 70px;
+    margin-top: 10px;
+}
+
+.dados-contato h3{
+    margin-bottom: 10px;
+    font-size: 18px;
+    letter-spacing: .1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #A9AEB3;
+}
+
+.dados-contato span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    display: block;
+}
+
+.contato-endereco{
+    margin-bottom: 25px;
+}
+
+.contato-redes-sociais ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+
+.contato-redes-sociais ul li a{
+    border: 3px solid #FEC63E;
+    display: block;
+    padding: 10px;
+}
+
+.contato-redes-sociais ul li a:hover{
+    border: 3px solid #000;
+}
+
+.contato-redes-sociais ul li img:hover{
+    color: #000;
+}
+
+.mapa{
+    padding-bottom: 60px;
+}

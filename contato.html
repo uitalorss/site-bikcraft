@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/sobre.css">
-    <link rel="stylesheet" href="css/produtos.css">
+    <link rel="stylesheet" href="css/contato.css">
     <title>Bikcraft - Contato</title>
 </head>
 <body>
@@ -21,90 +21,20 @@
                     <li><a href="sobre.html">Sobre</a></li>
                     <li><a href="produtos.html">Produtos</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+                    <li><a class="header-ativo" href="contato.html">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section class="intro-interna intro-produtos">
+    <section class="intro-interna intro-contato">
         <div class="container">
             <h1>Contato</h1>
-            <p>conheça todos os nossos produtos</p>
+            <p>Tire suas dúvidas conosco</p>
         </div>
     </section>
-    <section class="produtos-item">
+    <section class="contato">
         <div class="container">
-            <div class="grid-11 amostra-produtos">
-                <img src="img/passeio-1.svg" alt="imagem-bicicleta-passeio-1">
-                <h2>passeio</h2>
-            </div>
-            <div class="grid-5 produtos-icone-pg-produtos amostra-produtos">
-                <img src="img/produtos/passeio.svg" alt="bikcraft-passeio">
-            </div>
-            <div class="grid-8 amostra-produtos">
-                <img src="img/passeio-2.svg" alt="imagem-bicicleta-passeio-1">
-            </div>
-            <div class="grid-8 produtos-info amostra-produtos">
-                <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500</p>
-                <ul>
-                    <li>conforto</li>
-                    <li>velocidade</li>
-                    <li>design</li>
-                    <li>versatilidade</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section class="produtos-item">
-        <div class="container">
-            <div class="grid-11 amostra-produtos">
-                <img src="img/esporte-1.svg" alt="imagem-bicicleta-esporte-1">
-                <h2>esporte</h2>
-            </div>
-            <div class="grid-5 produtos-icone-pg-produtos amostra-produtos">
-                <img src="img/produtos/esporte.svg" alt="bikcraft-esporte">
-            </div>
-            <div class="grid-8 amostra-produtos">
-                <img src="img/esporte-2.svg" alt="imagem-bicicleta-esporte-2">
-            </div>
-            <div class="grid-8 produtos-info amostra-produtos">
-                <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500</p>
-                <ul>
-                    <li>conforto</li>
-                    <li>velocidade</li>
-                    <li>design</li>
-                    <li>versatilidade</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section class="produtos-item">
-        <div class="container">
-            <div class="grid-11 amostra-produtos">
-                <img src="img/retro-1.svg" alt="imagem-bicicleta-retro-1">
-                <h2>retrô</h2>
-            </div>
-            <div class="grid-5 produtos-icone-pg-produtos amostra-produtos">
-                <img src="img/produtos/retro.svg" alt="bikcraft-passeio">
-            </div>
-            <div class="grid-8 amostra-produtos">
-                <img src="img/retro-2.svg" alt="imagem-bicicleta-passeio-1">
-            </div>
-            <div class="grid-8 produtos-info amostra-produtos">
-                <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500</p>
-                <ul>
-                    <li>conforto</li>
-                    <li>velocidade</li>
-                    <li>design</li>
-                    <li>versatilidade</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section class="orcamento">
-        <h2 class="subtitulo-bg-preto">orçamento</h2>
-        <div class="container">
-            <form action="" class="form-orcamento grid-8">
+            <form action="" class="form-contato grid-8">
                 <label for="nome">Nome</label>
                 <input type="text" id="nome" placeholder="Nome Sobrenome" required>
                 <label for="email">Email</label>
@@ -115,17 +45,32 @@
                 <textarea name="msg" id="msg" cols="50" rows="10"></textarea>
                 <button class="btn-produto">Enviar</button>
             </form>
-            <div class="dados-orcamento grid-8">
-                <h3>monte a sua bikcraft</h3>
-                <p>Escolha as especificações</p>
-                <ul>
-                    <li class="impar">- Cores</li>
-                    <li class="par">- Estilo</li>
-                    <li class="impar">- Medidas</li>
-                    <li class="par">- Acessórios</li>
-                    <li class="impar">- E muito mais</li>
-                </ul>
+            <div class="dados-contato grid-8">
+                <div class="contato-endereco">
+                    <h3>Endereço</h3>
+                    <span>Rua das Gaivotas, nº 753. Imbuí. Salvador - BA. Ao lado do Shopping Gaivota.</span>
+                    <span>Cep: 42876-360</span>
+                </div>
+                <div class="contato-redes-sociais">
+                    <h3>redes sociais</h3>
+                    <ul class="">
+                        <li>
+                            <a href="facebook.com"><img src="img/redes-sociais/facebook.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="instagram.com"><img src="img/redes-sociais/instagram.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="twitter.com"><img src="img/redes-sociais/twitter.svg" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="grid-16 mapa">
+            <a href="http://googlemaps.com" target="_blank"><img src="img/endereco-bikcraft.jpg" alt="endereço bikcraft"></a>
         </div>
     </section>
     <section class="quebra">
