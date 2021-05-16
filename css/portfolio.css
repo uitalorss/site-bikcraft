@@ -1,0 +1,38 @@
+.intro-portfolio{
+    background: url("../img/bg-portfolio.jpg")no-repeat center;
+    background-size: cover;
+}
+
+.quote-portfolio{
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.quote-portfolio p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.quote-portfolio cite{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: right;
+    float: right;
+    font-style: normal;
+}
+
+.fotos-portfolio{
+    width: 100%;
+    padding: 60px 0;
+    background: #000;
+    margin-top: 40px;
+}
+
+.grid-16{
+    padding-top: 24px;
+}
