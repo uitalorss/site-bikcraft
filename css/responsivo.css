@@ -1,0 +1,93 @@
+ 
+ /* Estilos para tablets */
+ @media only screen and (min-width: 898px) and (max-width: 1089px){
+    .qualidade::after{
+        width: 634px;
+        right: 66px;
+    }
+
+    .qualidade-lista li{
+        padding: 0 10px;
+    }
+ }
+
+ /* Estilos para smartphones */
+ @media only screen and (max-width: 897px){
+     .header{
+         position: relative;
+         padding-bottom: 0;
+     }
+
+     .header img{
+         margin: 0 auto;
+     }
+
+     .header-menu{
+         text-align: center;
+     }
+
+     .header-menu ul li{
+        margin: 0;
+    }
+
+    .header-menu ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        width: 140px;
+        color: #000;
+        font-weight: bold;
+        letter-spacing: .1em;
+        font-size: 12px;
+        padding: 15px 0;
+        margin-left: 5px
+
+    }
+
+    .intro{
+        margin-top: 0;
+        padding-top: 40px;
+        background: url("../img/bg-mobile.jpg") no-repeat center;
+        background-size: cover;
+    }
+
+    .produtos, .portfolio, .qualidade{
+        padding: 30px 0;
+    }
+
+    .call-to-action{
+        padding-top: 20px;
+    }
+
+    .qualidade:after{
+        display: none;
+    }
+
+    .qualidade img{
+        max-width: 60%;
+    }
+
+    .redes-sociais{
+        padding: 0;
+    }
+
+    .redes-sociais, .contato{
+        padding: 10px 0;
+    }
+
+    footer{
+        height: auto;
+    }
+
+    footer .subtitulo-bg-preto{
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .copy{
+        height: auto;
+    }
+
+    .copy p{
+        padding-bottom: 1px;
+    }
+ }
