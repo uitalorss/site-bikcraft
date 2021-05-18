@@ -201,11 +201,11 @@
         margin-top: 30px;
     }
 
-    .form-orcamento input {
+    .form-orcamento input, .form-contato input {
         width: 320px;
     }
 
-    .form-orcamento textarea{
+    .form-orcamento textarea, .form-contato textarea{
         width: 320px;    
     }
 
@@ -214,6 +214,30 @@
     }
 
     .dados-orcamento{
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    /*Página portfolio*/
+    .quote-portfolio {
+        max-width: 300px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    .fotos-portfolio {
+        width: 100%;
+        padding: 30px 0;
+        background: #000;
+        margin-top: 20px;
+    }
+
+    .fotos-portfolio .grid-16{
+        padding-top: 10px;
+    }
+
+    /*Página Contato*/
+    .dados-contato {
         padding-left: 0;
         margin-top: 30px;
     }
