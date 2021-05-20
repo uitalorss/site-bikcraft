@@ -86,6 +86,7 @@
 }
 
 .form-orcamento textarea{
+    width: 400px;
     background-color: #A9AEB3;
     border: 1px solid #000000;
     font-family: Georgia, 'Times New Roman', Times, serif;
