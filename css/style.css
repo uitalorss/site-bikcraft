@@ -340,6 +340,12 @@ footer{
     padding: 15px 0; 
 }
 
+.naoaparece{
+    visibility: hidden;
+    position: absolute;
+    height: 0;
+}
+
 /*slide*/
 [data-slide] {
     position: relative;
@@ -395,7 +401,6 @@ footer{
   .fadeInLeft {
     transform: translate3d(-20px,0,0);
   }
-  
   
   .anime{
       opacity: 1;
